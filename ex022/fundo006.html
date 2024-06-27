@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Fundo Fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
             
-            /* background-size: auto; O navegador que configura o tamanho da pagina*/
+            /* O navegador que configura o tamanho da pagina */
+            /* background-size: auto; */
             
-            /* background-size: contain; Mostra a imagem do tamanho real independente do tamanho da tela */
+            /* Mostra a imagem do tamanho real independente do tamanho da tela */
+            /* background-size: contain; */
             
             /* Ira cortar a imagem para se ajustar melhor na tela */
+            /* background-size: cover; */
+
+            /* Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            a poarametro [size] ainda não funciona na shorthand */
+
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed;
+            
             background-size: cover;
         }
         main {
@@ -32,7 +44,7 @@
 <body>
     <main>
         <h1>Teste de Imagem fundo</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolores sapiente asperiores suscipit rerum, ipsum cum possimus nostrum in atque, officia, et voluptatibus non obcaecati dicta sint? Porro, numquam tempora?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus cum ratione id. Obcaecati quisquam dolorem, tempora at neque quos excepturi sit quaerat placeat non blanditiis iure quibusdam expedita hic sunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus perspiciatis inventore ex, harum fuga placeat repellendus ad reprehenderit? Maxime itaque reiciendis velit amet nulla quos eos quas! Asperiores, error placeat!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolores sapiente asperiores suscipit rerum, ipsum cum possimus nostrum in atque, officia, et voluptatibus non obcaecati dicta sint? Porro, numquam tempora?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus cum ratione id. Obcaecati quisquam dolorem, tempora at neque quos excepturi sit quaerat placeat non blanditiis iure quibusdam expedita hic sunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus perspiciatis inventore ex, harum fuga placeat repellendus ad reprehenderit? Maxime itaque reiciendis velit amet nulla quos eos quas! Asperiores, error placeat!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolores sapiente asperiores suscipit rerum, ipsum cum possimus nostrum in atque, officia, et voluptatibus non obcaecati dicta sint? Porro, numquam tempora?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus cum ratione id. Obcaecati quisquam dolorem, tempora at neque quos excepturi sit quaerat placeat non blanditiis iure quibusdam expedita hic sunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus perspiciatis inventore ex, harum fuga placeat repellendus ad reprehenderit? Maxime itaque reiciendis velit amet nulla quos eos quas! Asperiores, error placeat!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolores sapiente asperiores suscipit rerum, ipsum cum possimus nostrum in atque, officia, et voluptatibus non obcaecati dicta sint? Porro, numquam tempora?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus cum ratione id. Obcaecati quisquam dolorem, tempora at neque quos excepturi sit quaerat placeat non blanditiis iure quibusdam expedita hic sunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus perspiciatis inventore ex, harum fuga placeat repellendus ad reprehenderit? Maxime itaque reiciendis velit amet nulla quos eos quas! Asperiores, error placeat!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolores sapiente asperiores suscipit rerum, ipsum cum possimus nostrum in atque, officia, et voluptatibus non obcaecati dicta sint? Porro, numquam tempora?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus cum ratione id. Obcaecati quisquam dolorem, tempora at neque quos excepturi sit quaerat placeat non blanditiis iure quibusdam expedita hic sunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus perspiciatis inventore ex, harum fuga placeat repellendus ad reprehenderit? Maxime itaque reiciendis velit amet nulla quos eos quas! Asperiores, error placeat!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolores sapiente asperiores suscipit rerum, ipsum cum possimus nostrum in atque, officia, et voluptatibus non obcaecati dicta sint? Porro, numquam tempora?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus cum ratione id. Obcaecati quisquam dolorem, tempora at neque quos excepturi sit quaerat placeat non blanditiis iure quibusdam expedita hic sunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus perspiciatis inventore ex, harum fuga placeat repellendus ad reprehenderit? Maxime itaque reiciendis velit amet nulla quos eos quas! Asperiores, error placeat!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolores sapiente asperiores suscipit rerum, ipsum cum possimus nostrum in atque, officia, et voluptatibus non obcaecati dicta sint? Porro, numquam tempora?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus cum ratione id. Obcaecati quisquam dolorem, tempora at neque quos excepturi sit quaerat placeat non blanditiis iure quibusdam expedita hic sunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus perspiciatis inventore ex, harum fuga placeat repellendus ad reprehenderit? Maxime itaque reiciendis velit amet nulla quos eos quas! Asperiores, error placeat!</p>
     </main>
 </body>
 </html>
