@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            /* border: 5px solid red; */
+        }
+        tr.linha{
+            background-color: gray;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        td.dado{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minhas primeira tabela</h1>
+    <!-- Hierarquia de tabela
+     TABLE (table) = tabela
+        TABLE ROW (tr) = linha da tabela
+            TABLE HEADER () = cabeçalho da tabela
+            TABLE DATA (td) = dado de tabela -->
+    <table>
+        <!-- primeira linha -->
+        <tr class="linha">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <!-- segunda linha -->
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <!-- terceira linha -->
+        <tr>
+            <!-- não é obrigatorio fechar as tags, porem o mais indicado e manter fechada  -->
+            <td>A3
+            <td>B3
+            <td>C3
+        </tr>
+        <!-- quarta linha -->
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td class="dado">C4</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>B5</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+        </tr>
+    </table>
+</body>
+</html>
